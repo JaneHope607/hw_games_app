@@ -4,7 +4,6 @@ MVP
 
 Diagram:
 
-
 Showing the dataflow through the application starting with a form submission, ending with the re-rendering of the page. This will involve a multi-direction data-flow with the client posting data to the server and the server sending data back to the client with the response. Detail the client, server and database in the diagram and include the names of the files involved in the process.
 
 Questions
@@ -27,13 +26,13 @@ What process does the the client (front-end) use to communicate with the server?
 - the GameForm?
 
 What optional second argument does the fetch method take? And what is it used for in this application? Hint: See Using Fetch on the MDN docs
-- The second argument is what going to create - payload
+- The second argument an init object
 
 Which of the games API routes does the front-end application consume (i.e. make requests to)?
--  http://localhost:3000/api/games/
+-  http://localhost:3000/api/games/ and http://localhost:3000/api/games/:id
 
 What are we using the MongoDB Driver for?
--
+- connecting server and database
 
 Extension
 Why do we need to use ObjectId from the MongoDB driver?
